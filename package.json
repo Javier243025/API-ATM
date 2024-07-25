@@ -1,0 +1,35 @@
+{
+  "name": "api-bancaria-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "api-bancaria-cdk": "bin/api-bancaria-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.14.2",
+    "aws-cdk": "2.147.0",
+    "jest": "^29.7.0",
+    "mysql": "^2.18.1",
+    "ts-jest": "^29.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.147.0",
+    "constructs": "^10.0.0",
+    "emailjs": "^4.0.3",
+    "mysql-await": "^2.2.3",
+    "mysql2": "^3.10.2",
+    "nodemailer": "^6.9.14",
+    "source-map-support": "^0.5.21"
+  },
+  "optionalDependencies": {
+    "mysql": "^2.18.1"
+  }
+}
